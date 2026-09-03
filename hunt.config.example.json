@@ -1,0 +1,11 @@
+{
+  "$comment": "Copy to hunt.config.json (gitignored) OR just use the first-run search box. Never commit a real home address.",
+  "place": "Your Town, ST",
+  "home": {
+    "label": "Our place",
+    "address": ""
+  },
+  "animalsAcres": 3,
+  "driveMinutes": 20,
+  "goodSchools": true
+}

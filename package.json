@@ -1,0 +1,30 @@
+{
+  "name": "homestead-hunt",
+  "private": false,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Find a house with land, a school district, and room for animals. Plug-and-play. Bring your own town.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "node server/prod.mjs",
+    "name-house": "bash scripts/name-house.sh",
+    "preview": "vite preview --host --port 8788"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.12",
+    "@types/leaflet": "^1.9.20",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^4.7.0",
+    "tailwindcss": "^4.1.12",
+    "typescript": "^5.9.2",
+    "vite": "^6.3.5"
+  }
+}
